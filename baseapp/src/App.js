@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { TimeOfDay } from "./functionsToCorrect";
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <TimeOfDay />
+        <br />
       </header>
     </div>
   );
